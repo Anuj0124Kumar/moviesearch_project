@@ -27,7 +27,7 @@ export default function Movie() {
                       ? `${Title.slice(0, 15)}...`
                       : `${Title}`}
                   </h2>
-                  <img src={Poster} alt="no image" />
+                  <img src={Poster} alt="" />
                 </div>
               </div>
             </NavLink>
