@@ -5,7 +5,7 @@ export default function OneMovieData() {
   const { id } = useParams();
   console.log(id);
 
-  const { isLoading, movie, isError } = useFetch(`&i=${id}`);
+  const { isLoading, movie } = useFetch(`&i=${id}`);
 
   if (isLoading) {
     return (
